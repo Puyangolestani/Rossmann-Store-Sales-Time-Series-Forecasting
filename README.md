@@ -42,7 +42,4 @@ The project combines classic time series techniques with machine learning (XGBoo
 
 ### 3. Time Series Cross-Validation
 
-Used `TimeSeriesSplit` to ensure training only includes past data — no future leakage:
 
-```python
-tss = TimeSeriesSplit(n_splits=5, test_size=90, gap=1)
