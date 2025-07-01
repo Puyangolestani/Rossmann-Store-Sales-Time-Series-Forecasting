@@ -38,7 +38,7 @@ The project combines classic time series techniques with machine learning (XGBoo
 
 - **Calendar Features**: Extracted `dayofweek`, `month`, `year`, `quarter`, etc.
 - **Lag Features**: Created `lag1` (sales from same day last year) to capture seasonality.
-- **Promo & Holiday Encoding**: Retained and used `Promo`, `SchoolHoliday`, and `StateHoliday`.
+- **Promo & Holiday Encoding**: Retained and used `Promo`and `SchoolHoliday` .
 
 ### 3. Time Series Cross-Validation
 
